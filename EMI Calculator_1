@@ -1,0 +1,118 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://workbench.hyperdev.com/projects/prj_bf7caebadf9c5f75/proxy/
+Subject: EMI Calculator
+Date: Fri, 25 Sep 2026 09:29:21 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--WaBA8EWoUbUQ6rjLw6I4P26xO2PcsvSf6TbnqoCtsy----"
+
+
+------MultipartBoundary--WaBA8EWoUbUQ6rjLw6I4P26xO2PcsvSf6TbnqoCtsy----
+Content-Type: text/html
+Content-ID: <frame-0A2D48529404300CEC0151EFDB2E4C64@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://workbench.hyperdev.com/projects/prj_bf7caebadf9c5f75/proxy/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-33539ad1-4415-407c-a5cb-aa81b0f15b7b@mhtml.blink" />
+    
+
+    
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+  </head>
+  <body>
+    <div id="root"><div class="app"><div class="header"><h1>EMI Calculator</h1><p>Estimate your monthly loan installment, total interest and repayment schedule</p></div><div class="card"><div class="grid"><div><div class="field"><div class="field-label"><span>Loan Amount</span><span class="value">₹10,00,000</span></div><input type="number" min="0" value="1000000"><input type="range" min="10000" max="20000000" step="10000" value="1000000"></div><div class="field"><div class="field-label"><span>Interest Rate (per annum)</span><span class="value">9.5%</span></div><input type="number" min="0" step="0.05" value="9.5"><input type="range" min="0" max="30" step="0.05" value="9.5"></div><div class="field"><div class="field-label"><span>Loan Tenure<span class="toggle-group"><button class="active">Years</button><button class="">Months</button></span></span><span class="value">10 years</span></div><input type="number" min="0" value="10"><input type="range" min="1" max="40" step="1" value="10"></div></div><div class="results"><div class="emi-label">Monthly EMI</div><div class="emi-amount">₹12,940</div><div class="donut-wrap"><svg width="180" height="180" viewBox="0 0 180 180"><circle cx="90" cy="90" r="70" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="22"></circle><circle cx="90" cy="90" r="70" fill="none" stroke="#ffffff" stroke-width="22" stroke-dasharray="283.250433646443 156.572537856128" stroke-linecap="round" transform="rotate(-90 90 90)"></circle></svg><div class="donut-center"><div class="pct">64%</div><div style="font-size: 0.75rem; opacity: 0.85;">Principal</div></div></div><div class="legend"><div class="legend-row"><span class="left"><span class="dot" style="background: rgb(255, 255, 255);"></span>Principal</span><span class="amt">₹10,00,000</span></div><div class="legend-row"><span class="left"><span class="dot" style="background: rgba(255, 255, 255, 0.35);"></span>Total Interest</span><span class="amt">₹5,52,771</span></div><div class="legend-row"><span class="left">Total Payment</span><span class="amt">₹15,52,771</span></div></div></div></div><div class="schedule-toggle"><button>Show Amortization Schedule</button></div></div><div class="footer-note">Calculations are estimates based on standard reducing-balance EMI formula and may vary from your lender's exact terms.</div></div></div>
+    
+  
+
+</body></html>
+------MultipartBoundary--WaBA8EWoUbUQ6rjLw6I4P26xO2PcsvSf6TbnqoCtsy----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-33539ad1-4415-407c-a5cb-aa81b0f15b7b@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: linear-gradient(135deg, rgb(238, 242, 255) 0%, rgb(247, 249, 252) 100%); color: rgb(31, 36, 48); min-height: 100vh; }
+
+.app { max-width: 1000px; margin: 0px auto; padding: 32px 20px 60px; }
+
+.header { text-align: center; margin-bottom: 28px; }
+
+.header h1 { font-size: 2rem; margin: 0px 0px 6px; color: rgb(43, 47, 119); }
+
+.header p { margin: 0px; color: rgb(102, 102, 102); }
+
+.card { background: rgb(255, 255, 255); border-radius: 16px; box-shadow: rgba(43, 47, 119, 0.08) 0px 10px 30px; padding: 28px; }
+
+.grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 32px; }
+
+@media (max-width: 800px) {
+  .grid { grid-template-columns: 1fr; }
+}
+
+.field { margin-bottom: 22px; }
+
+.field-label { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem; }
+
+.field-label .value { color: rgb(76, 79, 194); font-weight: 700; }
+
+.field input[type="number"] { width: 100%; padding: 10px 12px; border: 1px solid rgb(217, 219, 233); border-radius: 8px; font-size: 1rem; outline: none; transition: border-color 0.15s; }
+
+.field input[type="number"]:focus { border-color: rgb(99, 102, 241); }
+
+input[type="range"] { width: 100%; margin-top: 6px; accent-color: rgb(99, 102, 241); }
+
+.toggle-group { display: inline-flex; border: 1px solid rgb(217, 219, 233); border-radius: 8px; overflow: hidden; margin-left: 12px; }
+
+.toggle-group button { border-width: medium; border-style: none; border-color: currentcolor; border-image: none; background: rgb(255, 255, 255); padding: 4px 10px; cursor: pointer; font-size: 0.8rem; color: rgb(85, 85, 85); }
+
+.toggle-group button.active { background: rgb(99, 102, 241); color: rgb(255, 255, 255); }
+
+.results { background: linear-gradient(160deg, rgb(99, 102, 241), rgb(76, 79, 194)); border-radius: 16px; color: rgb(255, 255, 255); padding: 28px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+
+.results .emi-amount { font-size: 2.4rem; font-weight: 800; margin: 6px 0px 20px; }
+
+.results .emi-label { font-size: 0.9rem; opacity: 0.85; text-transform: uppercase; letter-spacing: 0.06em; }
+
+.donut-wrap { position: relative; width: 180px; height: 180px; margin: 10px 0px 20px; }
+
+.donut-center { position: absolute; inset: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+
+.donut-center .pct { font-size: 1.1rem; font-weight: 700; }
+
+.legend { width: 100%; display: flex; flex-direction: column; gap: 10px; margin-top: 6px; }
+
+.legend-row { display: flex; justify-content: space-between; align-items: center; background: rgba(255, 255, 255, 0.12); border-radius: 10px; padding: 10px 14px; font-size: 0.9rem; }
+
+.legend-row .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 8px; }
+
+.legend-row .left { display: flex; align-items: center; }
+
+.legend-row .amt { font-weight: 700; }
+
+.schedule-toggle { margin-top: 28px; text-align: center; }
+
+.schedule-toggle button { background: rgb(99, 102, 241); color: rgb(255, 255, 255); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 10px 22px; border-radius: 8px; cursor: pointer; font-size: 0.95rem; font-weight: 600; }
+
+.schedule-toggle button:hover { background: rgb(76, 79, 194); }
+
+.schedule-wrap { margin-top: 20px; overflow-x: auto; max-height: 420px; border: 1px solid rgb(238, 238, 238); border-radius: 12px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; min-width: 560px; }
+
+thead th { position: sticky; top: 0px; background: rgb(242, 242, 251); padding: 10px 12px; text-align: right; font-weight: 700; color: rgb(68, 68, 68); border-bottom: 1px solid rgb(229, 229, 240); }
+
+thead th:first-child, tbody td:first-child { text-align: left; }
+
+tbody td { padding: 8px 12px; text-align: right; border-bottom: 1px solid rgb(240, 240, 247); }
+
+tbody tr:hover { background: rgb(248, 248, 255); }
+
+.footer-note { text-align: center; color: rgb(136, 136, 136); font-size: 0.8rem; margin-top: 24px; }
+------MultipartBoundary--WaBA8EWoUbUQ6rjLw6I4P26xO2PcsvSf6TbnqoCtsy------

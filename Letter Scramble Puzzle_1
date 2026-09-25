@@ -1,0 +1,106 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://workbench.hyperdev.com/projects/prj_62cc2a0570458a89/proxy/
+Subject: Letter Scramble Puzzle
+Date: Fri, 25 Sep 2026 09:32:00 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--1xclenUFsMIIJVxaekwKSMoH5BaysnqPkj2ibk842l----"
+
+
+------MultipartBoundary--1xclenUFsMIIJVxaekwKSMoH5BaysnqPkj2ibk842l----
+Content-Type: text/html
+Content-ID: <frame-002D30BCFA885B483AE17BA96BA6899D@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://workbench.hyperdev.com/projects/prj_62cc2a0570458a89/proxy/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-910f0333-c56c-4ba5-ae2b-9f1788964fa2@mhtml.blink" />
+    
+
+    
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Scramble Puzzle</title>
+  </head>
+  <body>
+    <div id="root"><div class="app"><div class="card"><header><h1>🔤 Letter Scramble Puzzle</h1><div class="stats"><span class="score">Score: 0</span><span class="round">Round 1 / 15</span></div></header><p class="instructions">Tap the scrambled letters below to spell out the hidden word.</p><div class="slots playing"><div class="slot "></div><div class="slot "></div><div class="slot "></div><div class="slot "></div><div class="slot "></div><div class="slot "></div></div><div class="bank"><button class="tile">Z</button><button class="tile">U</button><button class="tile">P</button><button class="tile">Z</button><button class="tile">E</button><button class="tile">L</button></div><div class="hint-area"><button class="hint-btn">Show hint (costs 5 pts)</button></div><div class="actions"><button>Clear</button><button class="primary">Check Answer</button></div><footer><button class="link">Restart Game</button></footer></div></div></div>
+    
+  
+
+</body></html>
+------MultipartBoundary--1xclenUFsMIIJVxaekwKSMoH5BaysnqPkj2ibk842l----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-910f0333-c56c-4ba5-ae2b-9f1788964fa2@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: linear-gradient(135deg, rgb(110, 69, 226), rgb(136, 211, 206)); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+
+.app { width: 100%; display: flex; justify-content: center; }
+
+.card { background: rgb(255, 255, 255); border-radius: 16px; box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 40px; padding: 32px; width: 100%; max-width: 560px; text-align: center; }
+
+header h1 { margin: 0px 0px 8px; font-size: 1.8rem; color: rgb(45, 43, 85); }
+
+.stats { display: flex; justify-content: space-between; font-weight: 600; color: rgb(85, 85, 85); margin-bottom: 16px; font-size: 0.95rem; }
+
+.instructions { color: rgb(102, 102, 102); margin-bottom: 20px; }
+
+.slots { display: flex; justify-content: center; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; min-height: 60px; }
+
+.slot { width: 44px; height: 52px; border: 2px solid rgb(204, 204, 204); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: 700; color: rgb(45, 43, 85); background: rgb(246, 246, 251); cursor: pointer; transition: 0.15s; }
+
+.slot.filled { border-color: rgb(110, 69, 226); background: rgb(236, 229, 255); }
+
+.slots.correct .slot { border-color: rgb(53, 181, 109); background: rgb(220, 248, 230); color: rgb(28, 122, 68); }
+
+.slots.wrong .slot { border-color: rgb(226, 71, 71); background: rgb(253, 224, 224); animation: 0.35s ease 0s 1 normal none running shake; }
+
+@keyframes shake { 
+  0%, 100% { transform: translateX(0px); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+
+.bank { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; min-height: 56px; }
+
+.tile { width: 44px; height: 52px; border-radius: 8px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; background: rgb(110, 69, 226); color: white; font-size: 1.3rem; font-weight: 700; cursor: pointer; transition: transform 0.1s, background 0.2s; }
+
+.tile:hover { background: rgb(90, 55, 194); transform: translateY(-2px); }
+
+.hint-area { margin-bottom: 16px; min-height: 40px; }
+
+.hint-btn { background: rgb(255, 179, 71); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: rgb(74, 47, 0); padding: 8px 16px; border-radius: 8px; font-weight: 600; cursor: pointer; }
+
+.hint-btn:hover { background: rgb(255, 167, 38); }
+
+.hint { color: rgb(181, 117, 10); font-weight: 600; margin: 0px; }
+
+.message { font-weight: 700; margin-bottom: 12px; }
+
+.message.good { color: rgb(28, 122, 68); }
+
+.message.bad { color: rgb(192, 57, 43); }
+
+.actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+
+.actions button { padding: 10px 18px; border-radius: 8px; border: 2px solid rgb(110, 69, 226); background: white; color: rgb(110, 69, 226); font-weight: 700; cursor: pointer; transition: 0.15s; }
+
+.actions button:hover:not(:disabled) { background: rgb(110, 69, 226); color: white; }
+
+.actions button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.actions .primary { background: rgb(110, 69, 226); color: white; }
+
+.actions .primary:hover:not(:disabled) { background: rgb(90, 55, 194); }
+
+footer { margin-top: 8px; }
+
+.link { background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: rgb(136, 136, 136); text-decoration: underline; cursor: pointer; font-size: 0.9rem; }
+
+.link:hover { color: rgb(68, 68, 68); }
+------MultipartBoundary--1xclenUFsMIIJVxaekwKSMoH5BaysnqPkj2ibk842l------
